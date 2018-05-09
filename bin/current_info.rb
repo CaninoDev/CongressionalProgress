@@ -1,6 +1,5 @@
 require 'date'
 require 'pry'
-require_relative '../app/model/congress'
 
 NEW_SESSION_MONTH = 1
 NEW_SESSION_DAY = 3

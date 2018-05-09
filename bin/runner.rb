@@ -2,10 +2,12 @@
 require 'pry'
 require_relative "welcome"
 require_relative "current_info"
-require_relative "../app/model/congress"
+require_relative "get_district"
+
 welcome
 current_info
-request_location
+address = get_address
+get_district(address)
 
 
 
